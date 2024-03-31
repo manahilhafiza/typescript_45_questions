@@ -1,21 +1,7 @@
-let numbers: number  [] =  [1,2,3,4,5,6,7,8,9];
+let pizzas: string [] = ['B B Q','Mecroni','Pepperoni'];
 
-for(let num of numbers ){
+for(let pizza of pizzas){
 
-  let ordinalEnding: string;
-
-  if(num === 1){
-       ordinalEnding = "st";
-  }
- else if(num === 2){
-        ordinalEnding = "nd";
- }
- else if (num === 3){
-      ordinalEnding = "rd";
- }
- else {
-      ordinalEnding = "th";
- }
- console.log(`${num} ${ordinalEnding}`);
-
+    console.log(`I like ${pizza} pizza.`);
 }
+console.log(`i really like pizza`);
