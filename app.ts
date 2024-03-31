@@ -1,45 +1,20 @@
-// version 1 of the program
+let age: number =  25;
 
-let alien_color: string = ("green");
+if( age < 2){
+console.log('  person is baby ');
 
-if(alien_color === "green"){
-    console.log("  player just earn 5 points ");
-}
-else  if (alien_color === "yellow"){
-      console.log("player just earne 10 points");
-}
-else if ( alien_color === "red"){
-    console.log("version 1: player just earn 15 points!");
+} else if (age >= 2 && age < 4){
+console.log(' person is toddler');
+
+}else if (age >= 4 && age  < 13){
+console.log(' person is kid');
+
+}else if(age >=13 && age < 20 ){
+  console.log(' person is teenager');
+
+}else if(age >= 20 && age < 65 ){
+   console.log(' person is adult');
+
 }else{
-    console.log(" please selrct right color!");
+   console.log(' person is older');
 }
-
-// version 2 of the program
-
- alien_color = "yellow";
-
- if(alien_color === "green"){
- console.log("player just earn 5 points");
- }
- else  if (alien_color === "yellow"){
-    console.log("player just earne 10 points ");
- }
- else if ( alien_color === "red"){
-console.log(" version 2: player just earn 15 points!");
-}else{
-    console.log(" please selrct right color!");
-}
-// version 3 of the proram
-alien_color = "red";
-
-if(alien_color === "green"){
-console.log("player just earn 5 points");
-}
-else  if (alien_color === "yellow"){
-console.log("player just earn 10 points ");
-}
-else  if (alien_color === "red"){
-console.log(" player just earn 15 ");
-} else{
-    console.log("please select right colors ");
-}  
