@@ -1,39 +1,53 @@
-// Store the locations in a array. Make sure the array is not in alphabetical order.
-let plcaces: string [] = ['Islamabad','Eifel Tower','Italy','Germany','Karachi'];
+//guest list: 3 GUEST INVITED
+let Guest_List: string  [] = ['Kamran Tessori','Nawaz Sharef','Asif Ali'];
 
-// Print your array in its original order.
-console.log('orignal '+ plcaces);
+//for(let i = 0; i<Guest_List.length; i++){
 
-//• Print your array in alphabetical order without modifying the actual list.
-console.log( 'copy ' + [...plcaces].sort());
+   // console.log('Dear Mr.' + Guest_List [i] + ',\n\n IT IS OUR PLEASURE TO INVITE YOU IN OUR PARTY. \n\n Thank You!');
+//}
+//absent guest
 
-//• Show that your array is still in its original order by printing it.
-console.log( 'orignal ' + plcaces);
+let absent_Guest: string = 'Kamran Tessori';
 
-//• Print your array in reverse alphabetical order without changing the order of the original list.
-console.log('copy ' + [...plcaces].sort().reverse());
+//new guest
 
-//• Show that your array is still in its original order by printing it again.
-console.log('orignal'+ plcaces);
+let new_Guest: string = 'Daniyal';
 
-//• Reverse the order of your list. Print the array to show that its
-//Order has change
-console.log( 'orignal' +plcaces.reverse());
+Guest_List[0] = new_Guest;
 
-//• Reverse the order of your list again. Print the list to show it’s back to its original order.
-console.log( 'orignal' +plcaces.reverse());
+//for(let i = 0; i<Guest_List.length; i++){
+   // console.log('Dear Mr.' + Guest_List [i] + ',\n\n IT IS OUR PLEASURE TO INVITE YOU IN OUR PARTY. \n\n Thank You!');
+//}
+//console.log(`Dear Mr. ${absent_Guest} is not coming to the party.`);
 
-//• Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
-console.log( 'orignal' + plcaces.sort());
+//3 more guest invited:
+//console.log('Good News! we find big dinner table so we are inviting 3 more guest.');
 
-//• Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-console.log('orignal' + plcaces.sort().reverse());
+Guest_List.unshift('Sir Zia');
 
+Guest_List.splice( 2, 0 ,'Maryum Nawaz');
 
+Guest_List.push('Bilawal Bhutto');
 
+//for(let i = 0; i<Guest_List.length; i++){
+//console.log('Dear Mr.' + Guest_List [i] + ',\n\n It Is Our Pleasure to invite You in  Our Party. \n\n Thank You!\n\n');
+//}   
+  
+// REMOVE GUEST LIST ONLY 2 GUEST INVITED:
+//console.log('\N Sorry we can not arrange big table, only 2 peoples will be invited.');
 
+while(Guest_List.length>2){
+let Remove_Guest = Guest_List.pop(); 
+//console.log (`Dear Mr. sorry! ${Remove_Guest} you can not invited to dinner.`);
+}
+//STILL INVITED GUEST:
+//for(let i = 0; i<Guest_List.length; i++){
+//console.log('Dear Mr.' + Guest_List [i] + ',\n\n you are still invited to dinner. \n\n Thank You! \n\n');
+ //}
+//EMPTY GUEST LIST
+Guest_List.splice(0,2);
+console.log(Guest_List);
 
-
-
-
+//Exercise 19 
+console.log(`total number of guest + ${Guest_List.length}`);
 
