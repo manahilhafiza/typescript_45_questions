@@ -1,30 +1,10 @@
-let megicians_names: string [] = ['harry poter ','hermione ','albus ','ron'];
-
-function copy_Array (arr:string[]){
-    return[...arr]
-}
-
-function make_great (megicianarry: string []){
-    for(let i = 0; i < megicianarry.length ; i++)
-
-    megicianarry [i] =   ' the Great ' + megicianarry [i];
-
-}
-
-function show_megicians ( megician:string[]){
-
-   megician.forEach(element => {
-
-      console.log(element);
-   });
-}
- const megicianArraycopy = copy_Array(megicians_names)
-
-  make_great(megicianArraycopy);
-
-  console.log('\n\nthis is my orignal array');
-
-  show_megicians(megicians_names);
-  console.log('\n\nthis is my modify copy of the  array')
-
- show_megicians(megicianArraycopy);
+function make_sandwiches (items:string[]){
+    console.log('\nmaking a sandwiches with:');
+ 
+  items.forEach(element => console.log("" + element));
+     console.log(' Enjaoy your sandwiches!\n')
+  }
+ 
+ make_sandwiches(['hum','cheese','lettuce']);
+ make_sandwiches(['turkey','becon']);
+ make_sandwiches(['peanut','jelly']);
