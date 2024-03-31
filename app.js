@@ -1,19 +1,16 @@
-var age = 25;
-if (age < 2) {
-    console.log('  person is baby ');
+var favorite_fruit = ['strawberry', 'orange', 'mango'];
+if (favorite_fruit.includes('strawberry')) {
+    console.log('I really like strawberries!');
 }
-else if (age >= 2 && age < 4) {
-    console.log(' person is toddler');
+if (favorite_fruit.includes('orange')) {
+    console.log('I you really like orange!');
 }
-else if (age >= 4 && age < 13) {
-    console.log(' person is kid');
+if (favorite_fruit.includes('mango')) {
+    console.log('I really like mango!');
 }
-else if (age >= 13 && age < 20) {
-    console.log(' person is teenager');
+if (favorite_fruit.includes('banana')) {
+    console.log('I really like banana!');
 }
-else if (age >= 20 && age < 65) {
-    console.log(' person is adult');
-}
-else {
-    console.log(' person is older');
+if (favorite_fruit.includes('apple')) {
+    console.log('I really like apple!');
 }
