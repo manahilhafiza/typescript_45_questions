@@ -1,11 +1,18 @@
-var current_users = ['TaHa', 'DaNiyal', 'SalMan', 'HamzaH', 'Jhon'];
-var new_user = ['Bilal', 'TaHa', 'Dawood', 'Jameel', 'HamzaH'];
-new_user.forEach(function (new_user) {
-    var lowerCase = new_user.toLowerCase();
-    if (current_users.map(function (c_user) { return c_user.toLowerCase(); }).includes(lowerCase)) {
-        console.log("the username ".concat(new_user, " is not available. please write a different username"));
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
+    var num = numbers_1[_i];
+    var ordinalEnding = void 0;
+    if (num === 1) {
+        ordinalEnding = "st";
+    }
+    else if (num === 2) {
+        ordinalEnding = "nd";
+    }
+    else if (num === 3) {
+        ordinalEnding = "rd";
     }
     else {
-        console.log("username  ".concat(new_user, " is available."));
+        ordinalEnding = "th";
     }
-});
+    console.log("".concat(num, " ").concat(ordinalEnding));
+}

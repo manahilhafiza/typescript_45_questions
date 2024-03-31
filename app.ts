@@ -1,14 +1,21 @@
-let current_users: string [] = ['TaHa','DaNiyal','SalMan','HamzaH','Jhon'];
-let new_user: string [] = ['Bilal','TaHa','Dawood','Jameel','HamzaH'];
+let numbers: number  [] =  [1,2,3,4,5,6,7,8,9];
 
-new_user.forEach(new_user => {
-    let lowerCase:string = new_user.toLowerCase();
+for(let num of numbers ){
 
-    if(current_users.map(c_user => c_user.toLowerCase()).includes(lowerCase)){
-    console.log(`the username ${new_user} is not available. please write a different username`);
+  let ordinalEnding: string;
+
+  if(num === 1){
+       ordinalEnding = "st";
+  }
+ else if(num === 2){
+        ordinalEnding = "nd";
+ }
+ else if (num === 3){
+      ordinalEnding = "rd";
+ }
+ else {
+      ordinalEnding = "th";
+ }
+ console.log(`${num} ${ordinalEnding}`);
+
 }
- else{
-      console.log(`username  ${new_user} is available.`);
- }}) 
-  
-    
