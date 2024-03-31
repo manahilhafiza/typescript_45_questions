@@ -1,3 +1,4 @@
-var Quote = "“A person who never made a mistake never tried anything new.”";
-var author = "Albert Einstein";
-console.log("".concat(author, " one said, \"").concat(Quote));
+var Quote = '“A person who never made a mistake never tried anything new.”';
+var FamousPerson = "Albert Einstein";
+var message = "".concat(FamousPerson, " once said,").concat(Quote);
+console.log(message);
