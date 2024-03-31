@@ -1,9 +1,12 @@
-function make_shirt (size: string = 'large' , text: string = 'i love type_script.'){
-    console.log(`creating a ${size} shirt with the message: ${text}`);
+function describe_city  (city:string, country:string = 'defult message.'){
+    console.log(`${city}  is in ${country}`);
 }
-make_shirt();
 
-make_shirt('Medium');
+describe_city('karachi',' pakistan');
 
-make_shirt('small', 'i love python');
+describe_city('tokyo','japan');
 
+
+
+describe_city('paris');
+   

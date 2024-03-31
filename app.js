@@ -1,8 +1,7 @@
-function make_shirt(size, text) {
-    if (size === void 0) { size = 'large'; }
-    if (text === void 0) { text = 'i love type_script.'; }
-    console.log("creating a ".concat(size, " shirt with the message: ").concat(text));
+function describe_city(city, country) {
+    if (country === void 0) { country = 'defult message.'; }
+    console.log("".concat(city, "  is in ").concat(country));
 }
-make_shirt();
-make_shirt('Medium');
-make_shirt('small', 'i love python');
+describe_city('karachi', ' pakistan');
+describe_city('tokyo', 'japan');
+describe_city('paris');
