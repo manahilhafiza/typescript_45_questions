@@ -1,7 +1,9 @@
-let pizzas: string [] = ['B B Q','Mecroni','Pepperoni'];
+let Animals: string [] = ['Cat','Dog','Rabbit'];
 
-for(let pizza of pizzas){
-
-    console.log(`I like ${pizza} pizza.`);
+for( let  Animal of Animals){  
+console.log(`A ${Animal} would make a great pet.`);
 }
-console.log(`i really like pizza`);
+
+console.log(`Any of these animal would make a great pet! `);
+
+
