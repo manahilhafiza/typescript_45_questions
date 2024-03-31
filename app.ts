@@ -1,10 +1,15 @@
-function make_sandwiches (items:string[]){
-    console.log('\nmaking a sandwiches with:');
- 
-  items.forEach(element => console.log("" + element));
-     console.log(' Enjaoy your sandwiches!\n')
+type  car = {
+     manufacture: string
+     model: string
+     [key : string]: any;
+}
+ function createcar(manufacture : string,model:string,optional:Record<string,any>): car {
+  return{
+    manufacture,
+    model;
+    ...optional
   }
- 
- make_sandwiches(['hum','cheese','lettuce']);
- make_sandwiches(['turkey','becon']);
- make_sandwiches(['peanut','jelly']);
+ }
+ const mycar:car =createcar("toyota","corolla"{color: "black" ,year: 2024});
+
+ console.log(mycar);
