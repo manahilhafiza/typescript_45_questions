@@ -1,11 +1,33 @@
-let user_Name: string [] = ['admin','saqib','junaid','khan zada','ibrar'];
+let userNames: string [] = ['admin','saqib','junaid','khan zada','ibrar'];
 
-for(let i = 0; i < user_Name.length; i++){
-    if(user_Name[i] === "admin")
- {
-    console.log('Hello admin! would you like to see a status report?');
+if(userNames.length === 0){
+  console.log('we need to find some users!');
+}else{
+    userNames=  [];
+    console.log('All users name has been remove. ' + userNames.length);
 }
- else{
-    console.log(`Hello ${user_Name[i]},   Thank you logging in again! `);
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
