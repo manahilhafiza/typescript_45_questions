@@ -1,8 +1,7 @@
-let Quote: string = '“A person who never made a mistake never tried anything new.”';
+let person_name: string = `\n\t manal \t\n`;
 
-let FamousPerson: String = "Albert Einstein";
+console.log(person_name);
 
+let stripped: string = person_name.trim();
 
-let message= `${FamousPerson} once said,${Quote}`;
-
-console.log(message);
+console.log(stripped);
