@@ -1,4 +1,4 @@
-var person_name = "\n\t manal \t\n";
-console.log(person_name);
-var stripped = person_name.trim();
-console.log(stripped);
+console.log(5 + 3);
+console.log(11 - 3);
+console.log(4 * 2);
+console.log(16 / 2);

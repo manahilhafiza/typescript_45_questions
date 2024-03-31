@@ -1,7 +1,7 @@
-let person_name: string = `\n\t manal \t\n`;
+console.log(5 + 3 );
+console.log(11 - 3 );
+console.log(4 * 2 );
+console.log( 16 / 2 );
 
-console.log(person_name);
 
-let stripped: string = person_name.trim();
 
-console.log(stripped);
