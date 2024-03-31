@@ -1,28 +1,9 @@
-let book1: ('talha');
+//22. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs
+//to produce an index error. Make sure you correct the error before closing the program.
 
-interface book {
-   name: string,
-   author: string,
-   price: number,
-}
-let book: book =  {
-   name: 'politics',
-   author: 'albert',
-   price: 250,
-}
-console.log (book);
+let personName: string [] = ['karachi','pencil','cake'];
 
-// second object
+console.log(personName [5]);
 
-interface mobile{
-   name: string,
-   model: number,
-   price: number,
-}
 
-let mobile:mobile = {
-   name: 'iphone',
-   model: 5,
-   price:15000,
-}
-console.log(mobile);
+console.log(personName);
