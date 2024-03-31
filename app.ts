@@ -1,12 +1,4 @@
-let personName: string  = ("karachi");
+let Quote: string = "“A person who never made a mistake never tried anything new.”";
 
-//lowercase
-console.log("toLowerCase:",personName.toLowerCase());
-
-//uppercase
-console.log("toUpperCase:",personName.toLocaleUpperCase());
-
-//titlecasr
-console.log("titleCase:",personName.replace(/\bw/g, c=> c.toUpperCase()));
-
-
+let author: string = "Albert Einstein";
+console.log(`${author} one said, "${author}`);
