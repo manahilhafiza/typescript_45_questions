@@ -1,5 +1,13 @@
-var items = ['Pakistan', 'Karachi', 'Urdu'];
-console.log(items);
-for (var i = 0; i < items.length; i++) {
-    console.log("".concat(items[i]));
-}
+var book1;
+var book = {
+    name: 'politics',
+    author: 'albert',
+    price: 250,
+};
+console.log(book);
+var mobile = {
+    name: 'iphone',
+    model: 5,
+    price: 15000,
+};
+console.log(mobile);
