@@ -1,6 +1,9 @@
-function make_shirt(text: string, size: string){
-    console.log(`creating a shirt ${size}  with message ${text}`);
+function make_shirt (size: string = 'large' , text: string = 'i love type_script.'){
+    console.log(`creating a ${size} shirt with the message: ${text}`);
 }
- make_shirt('large','what you want');
- make_shirt('medium','what you want'); 
- make_shirt('small','what you want');
+make_shirt();
+
+make_shirt('Medium');
+
+make_shirt('small', 'i love python');
+
