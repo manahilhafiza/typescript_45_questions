@@ -1,13 +1,7 @@
-function make_album(artist, title) {
-    var dictaionaries = {
-        artist: artist.charAt(0).toUpperCase() + artist.slice(1),
-        title: title.charAt(0).toUpperCase() + title.slice(1),
-    };
-    return dictaionaries;
+var megicians_names = ['harry poter', 'hermione', 'albus', 'ron'];
+function show_megicians(megician) {
+    megician.forEach(function (element) {
+        console.log(element);
+    });
 }
-var album = make_album("Ali", "light");
-console.log(album);
-album = make_album("Taha", "dark");
-console.log(album);
-album = make_album("Minal", "red wave");
-console.log(album);
+show_megicians(megicians_names);
