@@ -1,9 +1,42 @@
-//22. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs
-//to produce an index error. Make sure you correct the error before closing the program.
+let car = 'subaru';
+console.log("Is car == 'subaru'? I predict True.")
+console.log(car == 'subaru')
+ 
+//test 2
+console.log("Is car === 'subaru'? I predict True.")
+console.log(car === 'subaru')
 
-let personName: string [] = ['karachi','pencil','cake'];
+//test 3
+console.log("Is car != 'bike'? I predict True.")
+console.log(car != 'bike')
 
-console.log(personName [5]);
+//test 4 
+console.log("Is car !== 'ford'? I predict True.")
+console.log(car !== 'ford')
+
+//test 5 
+console.log("Is car.Upper case == 'SUBARU'? I predict True.")
+console.log(car.toUpperCase() == 'SUBARU')
+//test 6
+console.log("Is car == 'SUBARU'? I predict false.")
+console.log(car == 'SUBARU')
+
+//test 7
+console.log("Is car === 'hunda'? I predict false.")
+console.log(car === 'hunda')
+
+//test 8
+console.log("Is car === 'train'? I predict false.")
+console.log(car === 'train')
+
+//test 9
+console.log("Is car === 'bus'? I predict false.")
+console.log(car === 'bus')
+
+//test
+console.log("Is car === 'motor_cycle'? I predict false.")
+console.log(car === 'motor_cycle')
 
 
-console.log(personName);
+
+
