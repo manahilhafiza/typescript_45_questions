@@ -1,7 +1,17 @@
-function city_country(city: string , country: string ){
-    return`${city} , ${country}`
-}
+function make_album (artist: string, title: string): {artist: string; title: string}  {
+    const dictaionaries ={
+          artist: artist.charAt(0).toUpperCase()+ artist.slice(1),
+          title: title.charAt(0).toUpperCase()+title.slice(1),
+    }
+       return dictaionaries;
+       
+  
+  }
+ let album = make_album("Ali","light")
+ console.log(album);
 
-console.log (city_country('Karachi','pakistan'));
-console.log (city_country('Tokyo','japan'));
-console.log (city_country('Paris','farance'));
+ album = make_album ("Taha","dark")
+ console.log(album);
+
+  album = make_album("Minal","red wave")
+ console.log(album);
