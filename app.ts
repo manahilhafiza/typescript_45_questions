@@ -1,9 +1,6 @@
-let Animals: string [] = ['Cat','Dog','Rabbit'];
-
-for( let  Animal of Animals){  
-console.log(`A ${Animal} would make a great pet.`);
+function make_shirt(text: string, size: string){
+    console.log(`creating a shirt ${size}  with message ${text}`);
 }
-
-console.log(`Any of these animal would make a great pet! `);
-
-
+ make_shirt('large','what you want');
+ make_shirt('medium','what you want'); 
+ make_shirt('small','what you want');
